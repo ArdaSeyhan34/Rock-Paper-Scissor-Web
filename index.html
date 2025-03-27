@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="rps.css">
+    <link rel="icon" href="rtr.jpeg" type="image/x-icon">
+</head>
+<body>
+<h1>Rock-Paper-Scissors</h1>
+<h3>Play Now!</h3>
+<div class="choose">
+    <div class="rock" onclick="playRock(),UpdateScreen()">
+<img src="rocksss.png" alt="rock">
+<p>Rock</p>
+    </div>
+    <div class="paper" onclick="playPaper(),UpdateScreen()">
+<img src="paparss.png" alt="paper">
+<p>Paper</p>
+    </div>
+    <div class="Scissors" onclick="playScissors(),UpdateScreen()">
+    <img src="makas.png" alt="scissors">
+    <p>Scissors</p>
+    </div>
+</div>
+<div class="gamedisc"></div>
+<div></div>
+<button class="resetscore" onclick="reset(),UpdateScreen()">Reset Score</button>
+</div>
+<br>
+
+<div class="result"></div>
+<div class="table">
+    <div class="Wins">Wins:</div>
+    <div class="Ties">Ties:</div>
+    <div class="Losses">Losses:</div>
+   
+</div>
+<footer>
+    <a href="https://github.com/ArdaSeyhan34">>Made by A.Seyhan< </a>
+</footer>
+<script src="rps.js"></script>
+</body>
+</html>
