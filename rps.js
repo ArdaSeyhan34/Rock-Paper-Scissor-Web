@@ -73,11 +73,11 @@ function UpdateScreen() {
 function gamedisc(para) {
     let gamediscElement = document.querySelector(".gamedisc");
     if (para === "Win") {
-        gamediscElement.innerHTML = `<p>Computer Picked: <span>!${pc_pick}!</span> so YOU WON!</p>`;
+        gamediscElement.innerHTML = `<p>Computer Picked: <span>!${pc_pick}!</span> so YOU WON! 👍🏿</p>`;
     } else if (para === "Lose") {
-        gamediscElement.innerHTML = `<p>Computer Picked: <span>!${pc_pick}!</span> so YOU LOST! 😂</p>`;
+        gamediscElement.innerHTML = `<p>Computer Picked: <span>!${pc_pick}!</span> so YOU LOST! 👎🏿</p>`;
     } else if (para === "Tie") {
-        gamediscElement.innerHTML = `<p>Computer Picked: <span>!${pc_pick}!</span> so Game is TIED!</p>`;
+        gamediscElement.innerHTML = `<p>Computer Picked: <span>!${pc_pick}!</span> so Game is TIED! 🤝</p>`;
     }
 }
 function reset(){
